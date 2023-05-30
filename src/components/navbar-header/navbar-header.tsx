@@ -3,7 +3,7 @@ import { component$ } from "@builder.io/qwik";
 export const NavbarHeader = component$(() => {
   return (
     <>
-      <header class="w-full z-10 absolute drop-shadow-lg">
+      <header class="w-full z-10  drop-shadow-lg">
         <nav class="bg-white border-gray-200 dark:bg-gray-900">
           <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="#" class="flex items-center">

@@ -3,7 +3,7 @@ import { component$ } from "@builder.io/qwik";
 export const Banner = component$(() => {
   return (
     <>
-      <section class="h-screen flex flex-col justify-end ">
+      <section class=" flex flex-col justify-end ">
         <div class="flex flex-col items-center animate-fade-up animate-ease-in-out animate-fill-forwards">
           <h1 class="text-[13vw] drop-shadow-lg text-center font-semibold font-hubotSans">Hi, i'm <span class="font-bold text-primary">&lt;Yigs/&gt;</span></h1>
           <div class="h-1 w-3/4 bg-primary rounded-full"></div>
